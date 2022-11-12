@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+*{
+margin: 0;
+padding: 0;
+}
+#content{
+background-image: url(fastrackbg.webp);
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+</style>
+</head>
+<body>
+<div align="center">
+<header style=background-color:black><img src="fastracklogo.jpg"
+alt="rolex logo" height="125"></header>
+</div>
+<div align="center">
+<tr>
+<td><a
+href="#content">Home</a></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<td><a
+href="#foot">Contact</a></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<td><a
+href="Form2.html">Form</a></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<td><input type="text" placeholder="Search.."></td>
+</tr>
+<hr>
+</div>
+<div id="content">
+<div style="float: bottom ;">
+
+<video style="margin" width="500" height="400" controls>
+<source src="Rolex.mp4" type="video/mp4">
+</video>
+</div>
+<div style="float: left; text-align: center; margin-top: 100px; margin-left:
+50px;">
+<h3 style="color:rgb(248, 247, 248)">Fastrack was launched in 1998
+and became an independent
+urban youth brand in 2005. Since then, it has carved a niche for itself
+with watches and
+sunglasses that are both fashionable and affordable. Fastrack extended
+its footprint into
+accessories in 2009 with a range of bags, belts and wallets. Fastrack
+retails across the
+nation through 158 exclusive Fastrack stores in over 79 cities as well
+as authorized
+multi-brand outlets and online (www.fastrack.in). Today, the brand
+has successfully notched
+up the title of being the most loved youth fashion brand in the
+country.<br></h3>
+<audio controls>
+<source src="Rolex.mp4" type="audio/ogg">
+</audio>
+</div>
+</div>
+<hr>
+<div align="center">
+<table>
+<tr>
+<td style="padding-right:40px">
+<fieldset style="width:400px">
+<legend>Sign up</legend><br>
+<p>
+<div>
+<label for="username">Username:</label>
+<input type="text" id="username" name="username">
+</div><br>
+<p><div>
+<label for="pass">Password:</label>
+<input type="password" id="pass" name="password"
+minlength="8" required>
+</div><br
+
+</p>
+<p align="Center">
+<input type="submit" value="Register">
+</p>
+</fieldset>
+</td>
+<td>
+<h2>Contact Us</h2>
+<address>Address 1</address>
+<address>Address 2</address>
+<address>Address 3</address>
+Mail:<a href =
+"mailto:fastrack@google.com">fastrack@google.com</a><br>
+Phone no:(+91)(9999999999)
+</td>
+<td style="padding-left:40px;">
+<div class="mapouter"><div class="gmap_canvas"><iframe
+class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
+marginwidth="0"
+src="https://maps.google.com/maps?width=306&amp;height=142&amp;hl=en
+&amp;q=karunya institute of
+&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></if
+
+rame><a href="https://www.kokagames.com/fnf-friday-night-funkin-
+mods/">Friday Night Funkin
+
+Mods</a></div><style>.mapouter{position:relative;text-
+align:right;width:306px;height:142px;}.gmap_canvas
+
+{overflow:hidden;background:none!important;width:306px;height:142px;}.gma
+p_iframe {width:306px!important;height:142px!important;}</style></div>
+</td>
+</tr>
+</table>
+</div>
+<hr>
+</div>
+<footer>
+<div id="foot">
+<h1 style="background-color: black;" align="center"><img
+src="phone.png"alt="watch" width="30px",height="30px">&nbsp;&nbsp;<a
+href="https://www.facebook.com/rolex"><img
+src="facebook.jpg"alt="facebook"
+width="30px",height="30px"></a>&nbsp;&nbsp;<a
+href="https://www.instagram.com/rolex/"><img
+src="instagram.jpg"alt="instagram" width="30px",height="30pz"></a></h1>
+
+</div>
+</footer>
+</body>
+</html>
+
+FORM:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body bgcolor=lightpink>
+<h1 align="center">Resume Form</h1>
+<form style="text-align: justify;">
+<fieldset>
+<legend align="center">Personal details</legend>
+<p align="left">
+<label for="fname">First Name:</label>
+<input type="text"id="fname">
+</p>
+<p align="left">
+<label for="mname">Middle Name:</label>
+<input type="text"id="mname">
+</p>
+<p align="left">
+<label for="lname">Last Name:</label>
+<input type="text"id="lname">
+</p>
+<p align="left">
+<label for="dob">Date of Birth:</label>
+<input type="date"id="dob">
+</p>
+<p align="left">
+<label for="age">Age in Years:</label>
+<input type="number"id="age"placeholder="<30&>18">
+</p>
+<p align="left">
+Gender:<input type="radio"id="male"name="gender">
+
+<label for="male">Male</label>
+<input type="radio"id="female"name="gender">
+<label for="female">Female</label>
+</p>
+</fieldset>
+<fieldset>
+<legend align="center">Address details</legend>
+<address align="left">
+<label for="Address">Address:</label>
+<input type="Address"id="message">
+</address>
+<p align="left">
+<label for="city">City/Town:</label>
+<input type="text"id="city">
+</p>
+<p align="left">
+<label for="state">State:</label>
+<input type="text"id="state">
+</p>
+<p align="left">
+<label for="Zip code">Date of Birth:</label>
+<input type="number"id="Zip code">
+</p>
+</fieldset>
+<fieldset>
+<legend align="Center">Contact information</legend>
+<p align="left">
+<label for="Telephone">Telephone:</label>
+<input type="tel"id="Phone">
+</p>
+<p align="left">b
+<label for="Phone">Mobile:</label>
+<input type="tel"id="phone">
+</p>
+<p align="left">
+<label for="Email">Email:</label>
+<input type="email"id="email">
+</p>
+<p align="left">
+<label for="website">website:</label>
+<input type="url"id="website">
+</p>
+</fieldset>
+
+<fieldset>
+<legend align="center">Educational Details</legend>
+<table border="3"align="center">
+<tr bgcolor="#cccccc">
+<th>Qualification</th>
+<th>Board/University</th>
+<th>Country</th>
+<th>Starting Years</th>
+<th>Ending Year</th>
+<th>Percentage</th>
+</tr>
+<tr>
+<td><input type="checkbox">10th</td>
+<td><input type="text"placeholder="Borad/University"></td>
+<td>
+<select name="country"id="country">
+<option value="choose">Choose</option>
+<option value="India">India</option>
+<option value="England">England</option>
+<option value="South Africa">South Africa</option>
+<option value="Australia">Australia</option>
+</select>
+</td>
+<td><input type="date"></td>
+<td><input type="date"></td>
+<td><input type="number"placeholder="70"></td>
+</tr>
+<tr bgcolor="#ececec">
+<td bgcolor="#ececec"><input type="checkbox">12th</td>
+<td bgcolor="#ececec"><input
+type="text"placeholder="Borad/University"></td>
+<td bgcolor="#ececec">
+<select name="country"id="country">
+<option value="choose">Choose</option>
+<option value="India">India</option>
+<option value="England">England</option>
+<option value="South Africa">South Africa</option>
+<option value="Australia">Australia</option>
+</select>
+</td>
+<td bgcolor="#ececec"><input type="date"></td>
+<td bgcolor="#ececec"><input type="date"></td>
+
+<td bgcolor="#ececec"><input
+type="number"placeholder="70"></td>
+</tr>
+<tr>
+<td><input type="checkbox">B.Tech</td>
+<td><input type="text"placeholder="Borad/University"></td>
+<td>
+<select name="country"id="country">
+<option value="choose">Choose</option>
+<option value="India">India</option>
+<option value="England">England</option>
+<option value="South Africa">South Africa</option>
+<option value="Australia">Australia</option>
+</select>
+</td>
+<td><input type="date"></td>
+<td><input type="date"></td>
+<td><input type="number"placeholder="70"></td>
+</tr>
+<tr>
+<td bgcolor="#ececec"><input type="checkbox">M.Tech</td>
+<td bgcolor="#ececec"><input
+type="text"placeholder="Borad/University"></td>
+<td bgcolor="#ececec">
+<select name="country"id="country">
+<option value="choose">Choose</option>
+<option value="India">India</option>
+<option value="England">England</option>
+<option value="South Africa">South Africa</option>
+<option value="Australia">Australia</option>
+</select>
+</td>
+<td bgcolor="#ececec"><input type="date"></td>
+<td bgcolor="#ececec"><input type="date"></td>
+<td bgcolor="#ececec"><input
+type="number"placeholder="70"></td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<p align="center">Attach your Resume in .doc or .pdf format:<input
+type="file"name="resume"></p>
+<p align="center"><input type="checkbox">I fill all the details</p>
+
+</fieldset>
+<p align="center">
+<input type="submit"name="send details">
+</p>
+</form>
+</body>
+</html>
